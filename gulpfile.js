@@ -18,6 +18,7 @@ gulp.task("mincss",function(){
             .pipe($.minifyCss())
             .pipe(gulp.dest('./dest/css'));
     })
+	
   gulp.task('watch',function(){
           gulp.watch("./css/*.css",['mincss']);
           gulp.watch("./js/*.js",['minjs'])
