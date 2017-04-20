@@ -20,7 +20,6 @@ gulp.task("mincss",function(){
     })
 
   gulp.task('watch',function(){
-
           gulp.watch("./css/*.css",['mincss']);
           gulp.watch("./js/*.js",['minjs'])
       })
