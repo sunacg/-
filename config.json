@@ -1,0 +1,21 @@
+[
+    {
+        "type":"dir",
+        "name":"css"
+    },{
+        "type":"dir",
+        "name":"img"
+    },{
+        "type":"dir",
+        "name":"js"
+    },{
+        "type":"dir",
+        "name":"template"
+    },{
+        "type":"file",
+        "name":"index.html"
+    },{
+        "type":"file",
+        "name":"404.html"
+    }
+]
